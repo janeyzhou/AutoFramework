@@ -7,7 +7,7 @@ module Amazon
     end
 
     def search_item
-      layer.li(:id => 'result_1')
+      layer.li(:Xpath, "//*[@id='rightResultsATF']/div[3]/div/div/ul/li[1]")
     end
 
 
